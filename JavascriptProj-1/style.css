@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+input[type=text], input[type=password]{
+  width:100%;
+  padding:15px;
+  margin: 5px 0 22px 0;
+  display:inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.warpper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: linear-gradient(to right bottom, rgb(179,81,235), rgb(86,5,157));
+  padding: 10px;
+}
+
+form_container{
+  width: 40vw;
+  background-color: white;
+}
